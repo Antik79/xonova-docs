@@ -90,7 +90,8 @@ Test builds aren't code-signed yet, so Windows SmartScreen may warn the first ti
 
 ## Finding it in your DAW
 
-XONOVA is an instrument by **MBSS**. Look for it under that vendor name or search for “XONOVA”. If your
+XONOVA is an instrument by **Monkey Business Soundsystem**. In your DAW's plugin list the vendor is shown
+as **MBSS**: look for it there, or search for “XONOVA”. If your
 DAW lists both VST3 and CLAP, either works; CLAP hosts get the same sound and parameters.
 
 ## The standalone app

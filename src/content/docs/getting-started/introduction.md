@@ -3,7 +3,7 @@ title: Introduction
 description: What XONOVA is, what it can do and how this manual is organised.
 ---
 
-XONOVA is a polyphonic wavetable synthesizer by **MBSS** (Monkey Business Soundsystem). It is built for
+XONOVA is a polyphonic wavetable synthesizer by **Monkey Business Soundsystem**. It is built for
 weight and movement: rolling reese basses, ragga stabs, screaming leads and evolving pads. You can drive it
 from a keyboard, your DAW or the computer keyboard, and almost everything you can turn can be modulated by
 dragging a source onto it.

@@ -1,0 +1,59 @@
+---
+// Header title: XONOVA logo, plus the MBSS (Monkey Business Soundsystem) logo linking to mbss.be.
+import xonovaLogo from '../assets/xonova-logo.png';
+import mbssLogo from '../assets/mbss-logo.png';
+const { siteTitleHref } = Astro.locals.starlightRoute;
+---
+
+<div class="brand sl-flex">
+	<a href={siteTitleHref} class="site-title sl-flex">
+		<img class="xonova" src={xonovaLogo.src} width={xonovaLogo.width} height={xonovaLogo.height} alt="XONOVA" />
+	</a>
+	<span class="divider" aria-hidden="true"></span>
+	<a href="https://mbss.be" class="mbss" title="Monkey Business Soundsystem" target="_blank" rel="noopener">
+		<img src={mbssLogo.src} width={mbssLogo.width} height={mbssLogo.height} alt="Monkey Business Soundsystem" />
+	</a>
+</div>
+
+<style>
+	.brand {
+		align-items: center;
+		gap: 0.75rem;
+		min-width: 0;
+	}
+	.site-title {
+		align-items: center;
+		text-decoration: none;
+		min-width: 0;
+	}
+	img.xonova {
+		height: 2.1rem;
+		width: auto;
+	}
+	.divider {
+		width: 1px;
+		height: 1.8rem;
+		background: var(--sl-color-gray-5);
+	}
+	.mbss {
+		display: flex;
+		align-items: center;
+	}
+	.mbss img {
+		height: 2.5rem;
+		width: auto;
+		/* The logo is black on white; keep it as a sticker on dark, plain on light. */
+		filter: drop-shadow(0 1px 3px rgb(0 0 0 / 0.5));
+	}
+	@media (max-width: 30rem) {
+		img.xonova {
+			height: 1.7rem;
+		}
+		.mbss img {
+			height: 2.1rem;
+		}
+		.brand {
+			gap: 0.5rem;
+		}
+	}
+</style>

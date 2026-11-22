@@ -11,8 +11,8 @@ export default defineConfig({
 		starlight({
 			title: 'XONOVA',
 			description:
-				'User manual for XONOVA, the wavetable synthesizer by MBSS (Monkey Business Soundsystem).',
-			logo: { src: './src/assets/xonova-logo.png', alt: 'XONOVA', replacesTitle: true },
+				'User manual for XONOVA, the wavetable synthesizer by Monkey Business Soundsystem.',
+			components: { SiteTitle: './src/components/SiteTitle.astro' },
 			favicon: '/favicon.svg',
 			customCss: ['./src/styles/xonova.css'],
 			social: [

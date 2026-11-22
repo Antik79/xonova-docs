@@ -88,10 +88,6 @@ header.header::after {
 	);
 }
 
-.site-title img {
-	height: 2.1rem;
-	width: auto;
-}
 
 /* Headings: condensed and a little bolder. */
 .sl-markdown-content :is(h2, h3) {
@@ -163,10 +159,58 @@ header.header::after {
 	height: auto;
 	filter: drop-shadow(0 6px 18px rgb(0 0 0 / 0.6));
 }
-.hero > img {
+/* Full, uncropped screenshot (Starlight would square-crop an image hero). */
+.hero > .hero-html {
+	width: 100%;
+	justify-content: center;
+}
+.hero .hero-shot {
+	display: block;
+	width: 100%;
+	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 10px 40px rgb(0 0 0 / 0.55);
 	border: 1px solid rgb(255 255 255 / 0.08);
+}
+@media (min-width: 50rem) {
+	.hero {
+		grid-template-columns: 4fr 6fr !important;
+		gap: 4% !important;
+	}
+	.hero > .hero-html {
+		width: 100% !important;
+	}
+}
+/* "by Monkey Business Soundsystem" line under the logo */
+.hero .hero-by {
+	display: flex;
+	align-items: center;
+	justify-content: inherit;
+	gap: 0.6rem;
+	margin-top: 1rem;
+	line-height: 1.2;
+	font-size: var(--sl-text-lg);
+	font-weight: 500;
+	color: var(--sl-color-gray-1);
+	flex-wrap: wrap;
+}
+.hero .hero-by img {
+	height: 3.2rem;
+	width: auto;
+	filter: drop-shadow(0 2px 6px rgb(0 0 0 / 0.6));
+}
+.hero .stack {
+	align-items: center;
+}
+@media (min-width: 50rem) {
+	.hero .stack {
+		align-items: flex-start;
+	}
+}
+.hero h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: inherit;
 }
 .hero .tagline {
 	color: var(--sl-color-gray-2);
