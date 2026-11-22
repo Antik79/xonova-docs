@@ -1,0 +1,203 @@
+/* XONOVA docs theme: the plugin's jungle / sound-system palette (Source/UI/Theme.cpp). */
+
+@font-face {
+	font-family: 'Plex Condensed';
+	src: url('/xonova-docs/fonts/IBMPlexSansCondensed-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Plex Condensed';
+	src: url('/xonova-docs/fonts/IBMPlexSansCondensed-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Plex Condensed';
+	src: url('/xonova-docs/fonts/IBMPlexSansCondensed-SemiBold.ttf') format('truetype');
+	font-weight: 600 700;
+	font-display: swap;
+}
+
+:root {
+	--xn-red: #e8392d;
+	--xn-yellow: #f5c518;
+	--xn-green: #3ccb4a;
+	--xn-orange: #f0812a;
+	--xn-cream: #f2ebd6;
+	--xn-panel: #2a2d1b;
+	--xn-ink: #16170f;
+	--xn-deep: #0b0b08;
+	--xn-stripe: linear-gradient(
+		to bottom,
+		var(--xn-red) 0 33.3%,
+		var(--xn-yellow) 33.3% 66.6%,
+		var(--xn-green) 66.6% 100%
+	);
+	--sl-font: 'Plex Condensed', 'IBM Plex Sans Condensed', system-ui, sans-serif;
+}
+
+/* Dark (default) */
+:root,
+::backdrop {
+	--sl-color-accent-low: #3a3208;
+	--sl-color-accent: var(--xn-yellow);
+	--sl-color-accent-high: #ffe68a;
+	--sl-color-white: #fffaf0;
+	--sl-color-gray-1: #f2ebd6;
+	--sl-color-gray-2: #d9d2bd;
+	--sl-color-gray-3: #a8a089;
+	--sl-color-gray-4: #6b6754;
+	--sl-color-gray-5: #3d3e2c;
+	--sl-color-gray-6: #22241a;
+	--sl-color-black: #121309;
+}
+
+/* Light */
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+	--sl-color-accent-low: #dff5dc;
+	--sl-color-accent: #1f7a2a;
+	--sl-color-accent-high: #0f3f15;
+	--sl-color-white: #16170f;
+	--sl-color-gray-1: #22241a;
+	--sl-color-gray-2: #3d3e2c;
+	--sl-color-gray-3: #5c5a48;
+	--sl-color-gray-4: #8a8670;
+	--sl-color-gray-5: #c9c3ab;
+	--sl-color-gray-6: #ece6d2;
+	--sl-color-gray-7: #f7f3e6;
+	--sl-color-black: #fffdf6;
+}
+
+/* Rasta stripe under the header, like the panel title bars in the plugin. */
+header.header {
+	border-bottom: 0;
+	box-shadow: 0 0 0 0 transparent;
+}
+header.header::after {
+	content: '';
+	position: absolute;
+	inset: auto 0 0 0;
+	height: 4px;
+	background: linear-gradient(
+		to right,
+		var(--xn-red) 0 33.3%,
+		var(--xn-yellow) 33.3% 66.6%,
+		var(--xn-green) 66.6% 100%
+	);
+}
+
+.site-title img {
+	height: 2.1rem;
+	width: auto;
+}
+
+/* Headings: condensed and a little bolder. */
+.sl-markdown-content :is(h2, h3) {
+	letter-spacing: 0.01em;
+}
+.sl-markdown-content h2 {
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid var(--sl-color-gray-5);
+}
+
+/* Screenshots look like panels: dark frame, soft shadow. */
+.sl-markdown-content img {
+	border-radius: 8px;
+	box-shadow: 0 6px 24px rgb(0 0 0 / 0.35);
+	border: 1px solid var(--sl-color-gray-5);
+}
+.sl-markdown-content figure {
+	margin-block: 1.5rem;
+}
+.sl-markdown-content figcaption {
+	font-size: var(--sl-text-sm);
+	color: var(--sl-color-gray-3);
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+/* Keyboard keys */
+.sl-markdown-content kbd {
+	font-family: var(--sl-font-mono);
+	font-size: 0.82em;
+	padding: 0.1em 0.45em;
+	border-radius: 4px;
+	border: 1px solid var(--sl-color-gray-4);
+	border-bottom-width: 3px;
+	background: var(--sl-color-gray-6);
+	color: var(--sl-color-white);
+}
+
+/* Splash page: always dark, with the jungle background behind the hero (both themes). */
+[data-has-hero] .main-frame {
+	background:
+		linear-gradient(to bottom, rgb(18 19 9 / 0.7), rgb(18 19 9 / 0.92) 55%, #121309 85%),
+		url('/xonova-docs/jungle-bg.jpg') center top / cover no-repeat;
+	--sl-color-white: #fffaf0;
+	--sl-color-gray-1: #f2ebd6;
+	--sl-color-gray-2: #d9d2bd;
+	--sl-color-gray-3: #a8a089;
+	--sl-color-gray-5: #3d3e2c;
+	--sl-color-gray-6: #22241a;
+	--sl-color-black: #121309;
+	--sl-color-text: #f2ebd6;
+	--sl-color-text-accent: var(--xn-yellow);
+	--sl-color-accent: var(--xn-yellow);
+	--sl-color-accent-high: #ffe68a;
+	--sl-color-accent-low: #3a3208;
+	color: var(--sl-color-gray-2);
+}
+[data-has-hero] .main-frame .sl-markdown-content :is(h2, h3) {
+	color: var(--sl-color-white);
+}
+.hero {
+	padding-block: 3rem 2rem;
+}
+.hero h1 {
+	line-height: 0;
+}
+.hero .hero-logo {
+	width: min(100%, 26rem);
+	height: auto;
+	filter: drop-shadow(0 6px 18px rgb(0 0 0 / 0.6));
+}
+.hero > img {
+	border-radius: 10px;
+	box-shadow: 0 10px 40px rgb(0 0 0 / 0.55);
+	border: 1px solid rgb(255 255 255 / 0.08);
+}
+.hero .tagline {
+	color: var(--sl-color-gray-2);
+}
+.hero .sl-link-button.primary {
+	background: var(--xn-yellow);
+	border-color: var(--xn-yellow);
+	color: #16170f;
+}
+
+/* Cards get a coloured top stripe. */
+.card {
+	border-top: 3px solid var(--xn-yellow) !important;
+	background: color-mix(in srgb, var(--sl-color-gray-6) 88%, transparent);
+	color: var(--sl-color-gray-2);
+}
+.card:nth-child(3n + 1) {
+	border-top-color: var(--xn-red) !important;
+}
+.card:nth-child(3n + 3) {
+	border-top-color: var(--xn-green) !important;
+}
+
+/* Small coloured labels used in tables, e.g. <span class="pill">Beta</span> */
+.pill {
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: 600;
+	padding: 0.05em 0.5em;
+	border-radius: 999px;
+	background: var(--sl-color-accent-low);
+	color: var(--sl-color-accent-high);
+	vertical-align: middle;
+}

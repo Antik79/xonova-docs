@@ -1,0 +1,55 @@
+---
+title: XONOVA
+description: User manual for XONOVA, the polyphonic wavetable synthesizer by MBSS (Monkey Business Soundsystem).
+template: splash
+hero:
+  title: '<img class="hero-logo" src="/xonova-docs/xonova-logo.png" alt="XONOVA" width="748" height="235">'
+  tagline: A polyphonic wavetable synth built for bass weight, jungle and sound-system pressure. Three wavetable oscillators, two filters, drag-and-drop modulation and 200 factory presets.
+  image:
+    file: ../../assets/screens/synth.png
+    alt: The XONOVA Synth page with three oscillators, two filters, macros and the modulation panel.
+  actions:
+    - text: Get started
+      link: /xonova-docs/getting-started/introduction/
+      icon: right-arrow
+    - text: Download
+      link: https://github.com/Antik79/xonova-releases/releases
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Three wavetable oscillators" icon="seti:audio">
+		40 factory tables plus your own WAV files, two warp stages per oscillator and up to 8-voice
+		unison.
+	</Card>
+	<Card title="Two filters, any routing" icon="random">
+		12 filter types with up to 4x oversampling, a serial/parallel blend and a feedback path.
+	</Card>
+	<Card title="Drag to modulate" icon="puzzle">
+		Drag an envelope, LFO, step sequencer, macro or controller onto any knob. 64 routings with
+		curves and scaling.
+	</Card>
+	<Card title="Inserts and an 8-slot FX rack" icon="setting">
+		Per-voice bitcrusher, waveshaper, frequency shifter and more, then chorus, delay, reverb and
+		friends in any order.
+	</Card>
+	<Card title="200 factory presets" icon="star">
+		Bass, Lead, Pad, Pluck, Keys, FX and Sequence, with search, tags, favourites and random
+		audition.
+	</Card>
+	<Card title="Everywhere you make music" icon="laptop">
+		VST3, CLAP, LV2 and a standalone app, on Linux and Windows.
+	</Card>
+</CardGrid>
+
+## Where to start
+
+<CardGrid>
+	<LinkCard title="Install XONOVA" description="Download, install on Linux or Windows, and load it in your DAW." href="/xonova-docs/getting-started/installation/" />
+	<LinkCard title="Your first sound" description="A ten-minute walkthrough from Init to a moving reese bass." href="/xonova-docs/getting-started/first-sound/" />
+	<LinkCard title="Modulation" description="Drag, drop and shape: how routings work." href="/xonova-docs/modulation/overview/" />
+	<LinkCard title="Keyboard shortcuts" description="Everything you can do without the mouse." href="/xonova-docs/reference/shortcuts/" />
+</CardGrid>
