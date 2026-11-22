@@ -10,7 +10,7 @@ presets without opening it.
 
 ## The factory library
 
-XONOVA comes with **200 factory presets** by Monkey Business Sound System in seven categories:
+XONOVA comes with **200 factory presets** by Monkey Business Soundsystem in seven categories:
 
 | Category | Presets |
 |---|---|

@@ -8,10 +8,10 @@ description: Frequently asked questions about XONOVA – price, platforms, forma
 Yes. Download it for free from the [releases page](https://github.com/Antik79/xonova-releases/releases).
 It isn't open source; the licence comes with every download.
 
-## How can I support Monkey Business Sound System?
+## How can I support Monkey Business Soundsystem?
 
 Visit [mbss.be](https://www.mbss.be) – their events, music and artists. If XONOVA is useful to you,
-a donation to Monkey Business Sound System is very welcome and helps keep it going.
+a donation to Monkey Business Soundsystem is very welcome and helps keep it going.
 
 ## Which DAWs does it work in?
 
@@ -65,5 +65,5 @@ you can route all of them through the [modulation matrix](/xonova-docs/modulatio
 
 ## Who makes XONOVA?
 
-XONOVA is made by **Monkey Business Sound System** ([mbss.be](https://www.mbss.be)), with jungle and
+XONOVA is made by **Monkey Business Soundsystem** ([mbss.be](https://www.mbss.be)), with jungle and
 ragga-jungle producers in mind.

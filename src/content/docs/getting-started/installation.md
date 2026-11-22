@@ -19,9 +19,9 @@ Pick the archive for your system:
 Once installed, XONOVA tells you itself when a newer version is out (see
 [Updates and privacy](/xonova-docs/reference/updates-and-privacy/)).
 
-:::tip[Support Monkey Business Sound System]
+:::tip[Support Monkey Business Soundsystem]
 XONOVA is free. If you enjoy it and want to support the people behind it, visit
-**[mbss.be](https://www.mbss.be)** – Monkey Business Sound System, the Belgian jungle, drum & bass and
+**[mbss.be](https://www.mbss.be)** – Monkey Business Soundsystem, the Belgian jungle, drum & bass and
 breakbeat crew behind XONOVA. Donations are very welcome and help keep XONOVA going.
 :::
 
@@ -96,7 +96,7 @@ Test builds aren't code-signed yet, so Windows SmartScreen may warn the first ti
 
 ## Finding it in your DAW
 
-XONOVA is an instrument by **Monkey Business Sound System**. In your DAW's plugin list the vendor is shown
+XONOVA is an instrument by **Monkey Business Soundsystem**. In your DAW's plugin list the vendor is shown
 as **MBSS**: look for it there, or search for “XONOVA”. If your
 DAW lists both VST3 and CLAP, either works; CLAP hosts get the same sound and parameters.
 

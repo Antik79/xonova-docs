@@ -3,7 +3,7 @@ title: Introduction
 description: What XONOVA is, what it can do and how this manual is organised.
 ---
 
-XONOVA is a polyphonic wavetable synthesizer by **Monkey Business Sound System**. It is built for
+XONOVA is a polyphonic wavetable synthesizer by **Monkey Business Soundsystem**. It is built for
 weight and movement: rolling reese basses, ragga stabs, screaming leads and evolving pads. You can drive it
 from a keyboard, your DAW or the computer keyboard, and almost everything you can turn can be modulated by
 dragging a source onto it.
@@ -70,6 +70,6 @@ shapes what comes next. See [Reporting problems](/xonova-docs/help/reporting-pro
 
 XONOVA is free to use but not open source. Download it from the
 [releases page](https://github.com/Antik79/xonova-releases/releases). If you want to give something back,
-you can support Monkey Business Sound System via [mbss.be](https://www.mbss.be) – donations are welcome.
+you can support Monkey Business Soundsystem via [mbss.be](https://www.mbss.be) – donations are welcome.
 The licence and third-party notices come with every download (`LICENSE.txt` and
 `THIRD-PARTY-NOTICES.txt`).
