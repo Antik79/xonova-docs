@@ -1,6 +1,6 @@
 # XONOVA documentation
 
-The user manual for **XONOVA**, the wavetable synthesizer by Monkey Business Soundsystem.
+The user manual for **XONOVA**, the wavetable synthesizer by Monkey Business Sound System.
 
 Live at **https://antik79.github.io/xonova-docs/**
 

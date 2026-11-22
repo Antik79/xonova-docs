@@ -60,5 +60,5 @@ you can route all of them through the [modulation matrix](/xonova-docs/modulatio
 
 ## Who makes XONOVA?
 
-XONOVA is made by **Monkey Business Soundsystem** ([mbss.be](https://mbss.be)), with jungle and
+XONOVA is made by **Monkey Business Sound System** ([mbss.be](https://mbss.be)), with jungle and
 ragga-jungle producers in mind.

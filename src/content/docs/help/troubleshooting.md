@@ -11,7 +11,7 @@ description: Fixes for common XONOVA problems – plugin not found, no sound, cr
      `C:\Program Files\Common Files\VST3`.
    - **Linux:** `install.sh` uses `~/.vst3`, `~/.clap` and `~/.lv2`. Some DAWs need these added to their
      plugin paths.
-3. Look under the vendor **MBSS** (Monkey Business Soundsystem), or search for “XONOVA”.
+3. Look under the vendor **MBSS** (Monkey Business Sound System), or search for “XONOVA”.
 4. Make sure you downloaded the 64-bit build for your system.
 
 ## It doesn't load on Linux / “GLIBC not found”
