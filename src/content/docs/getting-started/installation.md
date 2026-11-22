@@ -19,6 +19,12 @@ Pick the archive for your system:
 Once installed, XONOVA tells you itself when a newer version is out (see
 [Updates and privacy](/xonova-docs/reference/updates-and-privacy/)).
 
+:::tip[Support Monkey Business Sound System]
+XONOVA is free. If you enjoy it and want to support the people behind it, visit
+**[mbss.be](https://www.mbss.be)** – Monkey Business Sound System, the Belgian jungle, drum & bass and
+breakbeat crew behind XONOVA. Donations are very welcome and help keep XONOVA going.
+:::
+
 ## Requirements
 
 **Linux**

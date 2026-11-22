@@ -68,5 +68,8 @@ shapes what comes next. See [Reporting problems](/xonova-docs/help/reporting-pro
 
 ## Licence
 
-XONOVA is free to use but not open source. It is distributed **pay-what-you-want**. The licence and
-third-party notices come with every download (`LICENSE.txt` and `THIRD-PARTY-NOTICES.txt`).
+XONOVA is free to use but not open source. Download it from the
+[releases page](https://github.com/Antik79/xonova-releases/releases). If you want to give something back,
+you can support Monkey Business Sound System via [mbss.be](https://www.mbss.be) – donations are welcome.
+The licence and third-party notices come with every download (`LICENSE.txt` and
+`THIRD-PARTY-NOTICES.txt`).

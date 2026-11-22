@@ -21,7 +21,7 @@ missed.
 
 ## Where to send it
 
-- Reach out to **Monkey Business Sound System** via [mbss.be](https://mbss.be).
+- Reach out to **Monkey Business Sound System** via [mbss.be](https://www.mbss.be).
 - Or contact the person who gave you your test build.
 
 ## Improving these docs
