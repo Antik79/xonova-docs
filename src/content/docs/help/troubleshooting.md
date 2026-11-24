@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Fixes for common XONOVA problems – plugin not found, no sound, crackles and high CPU, Linux library errors, Windows SmartScreen.
+description: Fixes for common XONOVA problems – plugin not found, no sound, crackles and high CPU, Linux library errors, Windows SmartScreen, macOS blocking the plugin.
 ---
 
 ## My DAW doesn't find XONOVA
@@ -11,6 +11,8 @@ description: Fixes for common XONOVA problems – plugin not found, no sound, cr
      `C:\Program Files\Common Files\VST3`.
    - **Linux:** `install.sh` uses `~/.vst3`, `~/.clap` and `~/.lv2`. Some DAWs need these added to their
      plugin paths.
+   - **macOS:** `install.sh` uses `~/Library/Audio/Plug-Ins/Components`, `VST3` and `CLAP`, the folders
+     DAWs scan by default.
 3. Look under the vendor **MBSS** (Monkey Business Soundsystem), or search for “XONOVA”.
 4. Make sure you downloaded the 64-bit build for your system.
 
@@ -24,6 +26,19 @@ ldd --version
 ```
 
 Older distributions can't run the current builds.
+
+## macOS says XONOVA is “damaged” or can't be opened
+
+XONOVA isn't signed by Apple yet, and macOS blocks unsigned plugins that were downloaded from the internet.
+Install with `bash install.sh` (see [Installation → macOS](/xonova-docs/getting-started/installation/#macos)),
+which removes that block from XONOVA's files. If you copied the files by hand, run this in Terminal:
+
+```sh
+xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/*/XONOVA.* ~/Applications/XONOVA.app
+```
+
+Then restart your DAW. If Logic still doesn't list it, open **Logic Pro → Settings → Plug-in Manager** and
+rescan XONOVA.
 
 ## Windows says “Windows protected your PC”
 

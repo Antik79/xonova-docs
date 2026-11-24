@@ -22,16 +22,17 @@ CLAP, either works.
 
 ## Is there a Mac version?
 
-Not as a download yet. XONOVA is developed on Linux and released for **Linux** and **Windows**. If you're on
-a Mac and want to test, get in touch via [Reporting problems](/xonova-docs/help/reporting-problems/).
+Yes, for Macs with **Apple Silicon** (M1 and newer, macOS 11+): Audio Unit, VST3, CLAP and the standalone
+app. It isn't signed by Apple yet, so install it with the included installer; see
+[Installation → macOS](/xonova-docs/getting-started/installation/#macos).
 
 ## Is there an AU or AAX version?
 
-No. On Windows and Linux, VST3 and CLAP cover virtually every DAW.
+Audio Unit: yes, on macOS. AAX (Pro Tools): no.
 
-## Does it work on Apple Silicon / ARM Linux / 32-bit Windows?
+## Does it work on Intel Macs / ARM Linux / 32-bit Windows?
 
-The downloads are for 64-bit **x86** (Intel/AMD) Linux and Windows.
+No. The downloads are for 64-bit **x86** (Intel/AMD) Linux and Windows, and for Apple Silicon Macs.
 
 ## Why is the CPU figure high?
 

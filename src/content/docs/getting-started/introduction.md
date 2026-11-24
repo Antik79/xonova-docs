@@ -42,14 +42,13 @@ fully scalable interface.
 
 ## Formats and platforms
 
-| | Linux x86_64 | Windows x64 |
-|---|---|---|
-| VST3 | Yes | Yes |
-| CLAP | Yes | Yes |
-| LV2 | Yes | – |
-| Standalone app | Yes | Yes |
-
-macOS has no download yet; see the [FAQ](/xonova-docs/help/faq/#is-there-a-mac-version).
+| | Linux x86_64 | Windows x64 | macOS (Apple Silicon) |
+|---|---|---|---|
+| VST3 | Yes | Yes | Yes |
+| CLAP | Yes | Yes | Yes |
+| LV2 | Yes | – | – |
+| Audio Unit | – | – | Yes |
+| Standalone app | Yes | Yes | Yes |
 
 :::note[Beta]
 XONOVA is currently in **beta (0.2.0)**. Things can still change between versions, and your feedback

@@ -36,6 +36,7 @@ What it **doesn't** contain:
 |---|---|
 | Linux | `~/.local/share/MBSS/XONOVA/Presets` |
 | Windows | `%APPDATA%\MBSS\XONOVA\Presets` |
+| macOS | `~/Library/Application Support/MBSS/XONOVA/Presets` |
 
 Open it with **gear → Show presets folder**. Each preset is one `.xnpreset` file, in a subfolder named after
 its category (for example `Presets/Bass/My Reese.xnpreset`).

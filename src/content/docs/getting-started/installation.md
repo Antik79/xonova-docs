@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Download XONOVA and install the VST3, CLAP, LV2 and standalone versions on Linux and Windows.
+description: Download XONOVA and install the VST3, CLAP, LV2, Audio Unit and standalone versions on Linux, Windows and macOS.
 ---
 
 ## Download
@@ -15,6 +15,7 @@ Pick the archive for your system:
 |---|---|
 | Linux (64-bit) | `XONOVA-<version>-linux-x86_64.tar.gz` |
 | Windows (64-bit) | `XONOVA-<version>-windows-x64.zip` |
+| macOS (Apple Silicon) | `XONOVA-<version>-macos-arm64.zip` |
 
 Once installed, XONOVA tells you itself when a newer version is out (see
 [Updates and privacy](/xonova-docs/reference/updates-and-privacy/)).
@@ -37,10 +38,14 @@ breakbeat crew behind XONOVA. Donations are very welcome and help keep XONOVA go
 
 - 64-bit Windows.
 
-**Both**
+**macOS**
 
-- A host that loads VST3 or CLAP (or LV2 on Linux), for example Bitwig Studio, Reaper, FL Studio or
-  Ardour.
+- A Mac with Apple Silicon (M1 or newer) and macOS 11 Big Sur or newer. There is no build for Intel Macs.
+
+**All systems**
+
+- A host that loads VST3 or CLAP (or LV2 on Linux, Audio Unit on macOS), for example Bitwig Studio,
+  Reaper, Ableton Live, Logic Pro, FL Studio or Ardour.
 - The interface scales from 60 % to 200 %, so it fits small laptop screens as well as large monitors.
 
 ## Linux
@@ -92,6 +97,35 @@ The standalone app is `XONOVA.exe`. It can live anywhere, for example on your de
 :::caution[“Windows protected your PC”]
 Test builds aren't code-signed yet, so Windows SmartScreen may warn the first time you start
 `XONOVA.exe`. Click **More info**, then **Run anyway**. The plugins load in your DAW without this warning.
+:::
+
+## macOS
+
+XONOVA isn't signed by Apple yet, so macOS blocks plugins downloaded from the internet (it may call them
+"damaged"). The included installer takes care of that.
+
+1. Unzip the download (Safari usually does this for you).
+2. Open **Terminal** (Applications → Utilities), type `bash` and a space, drag `install.sh` from the
+   XONOVA folder into the Terminal window and press **Return**.
+
+   It installs for your user only and needs no password:
+
+   | What | Where |
+   |---|---|
+   | Audio Unit | `~/Library/Audio/Plug-Ins/Components/XONOVA.component` |
+   | VST3 plugin | `~/Library/Audio/Plug-Ins/VST3/XONOVA.vst3` |
+   | CLAP plugin | `~/Library/Audio/Plug-Ins/CLAP/XONOVA.clap` |
+   | Standalone app | `~/Applications/XONOVA.app` |
+
+   It also removes macOS's "downloaded from the internet" mark from these files (and only these).
+
+3. Restart your DAW or rescan plugins. Logic Pro and GarageBand use the Audio Unit.
+
+To remove everything again, run `bash install.sh --uninstall` the same way.
+
+:::tip[Installing by hand]
+Copy the four items to the folders above yourself, then remove the mark in Terminal:
+`xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/*/XONOVA.* ~/Applications/XONOVA.app`
 :::
 
 ## Finding it in your DAW

@@ -1,6 +1,6 @@
 ---
 title: Files and folders
-description: Where XONOVA keeps your presets, wavetables, favourites, settings and MIDI mappings on Linux and Windows.
+description: Where XONOVA keeps your presets, wavetables, favourites, settings and MIDI mappings on Linux, Windows and macOS.
 ---
 
 XONOVA keeps everything that belongs to **you** in one folder:
@@ -9,6 +9,7 @@ XONOVA keeps everything that belongs to **you** in one folder:
 |---|---|
 | Linux | `~/.local/share/MBSS/XONOVA` |
 | Windows | `%APPDATA%\MBSS\XONOVA` (usually `C:\Users\<you>\AppData\Roaming\MBSS\XONOVA`) |
+| macOS | `~/Library/Application Support/MBSS/XONOVA` |
 
 ## Contents
 
@@ -31,9 +32,10 @@ Copy the whole folder. On the new computer, install XONOVA, then put the folder 
 
 Where the installer puts the plugins:
 
-| | Linux (`install.sh`) | Windows |
-|---|---|---|
-| VST3 | `~/.vst3/XONOVA.vst3` | `C:\Program Files\Common Files\VST3\XONOVA.vst3` |
-| CLAP | `~/.clap/XONOVA.clap` | `C:\Program Files\Common Files\CLAP\XONOVA.clap` |
-| LV2 | `~/.lv2/XONOVA.lv2` | – |
-| Standalone | `~/.local/bin/xonova` | `XONOVA.exe`, wherever you put it |
+| | Linux (`install.sh`) | Windows | macOS (`install.sh`) |
+|---|---|---|---|
+| VST3 | `~/.vst3/XONOVA.vst3` | `C:\Program Files\Common Files\VST3\XONOVA.vst3` | `~/Library/Audio/Plug-Ins/VST3/XONOVA.vst3` |
+| CLAP | `~/.clap/XONOVA.clap` | `C:\Program Files\Common Files\CLAP\XONOVA.clap` | `~/Library/Audio/Plug-Ins/CLAP/XONOVA.clap` |
+| LV2 | `~/.lv2/XONOVA.lv2` | – | – |
+| Audio Unit | – | – | `~/Library/Audio/Plug-Ins/Components/XONOVA.component` |
+| Standalone | `~/.local/bin/xonova` | `XONOVA.exe`, wherever you put it | `~/Applications/XONOVA.app` |

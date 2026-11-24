@@ -46,6 +46,7 @@ quick access:
 |---|---|
 | Linux | `~/.local/share/MBSS/XONOVA/Wavetables` (or under `$XDG_DATA_HOME`) |
 | Windows | `%APPDATA%\MBSS\XONOVA\Wavetables` |
+| macOS | `~/Library/Application Support/MBSS/XONOVA/Wavetables` |
 
 Open it with **gear → Show wavetables folder**, **User folder → Show folder** in the table menu, or the
 button on the [Global page](/xonova-docs/pages/global/).
