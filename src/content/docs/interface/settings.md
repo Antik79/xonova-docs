@@ -1,6 +1,6 @@
 ---
 title: Settings (gear menu)
-description: Interface size, animated displays, MIDI controllers, update checks and folders.
+description: Theme, interface size, animated displays, MIDI controllers, update checks and folders.
 ---
 
 Click the **gear** at the top right of the window.
@@ -9,6 +9,7 @@ Click the **gear** at the top right of the window.
 
 | Item | What it does |
 |---|---|
+| **Theme** | **Monkey Business** (the jungle look, the default) or **FirstKlaas** (neon on dark metal). Only the look changes; your sound and settings stay. |
 | **Interface size** | 60 %, 75 %, 90 %, 100 %, 125 %, 150 %, 175 % or 200 %. You can also drag the window's corner. |
 | **Animated displays** | Switch the [live feedback](/xonova-docs/interface/live-feedback/) on or off. |
 | **MIDI controllers** | Lists every [MIDI learn](/xonova-docs/midi/midi-learn/) assignment, with **Cancel MIDI learn** while learning and **Forget all controllers**. |
