@@ -23,7 +23,7 @@ npm run build      # static site in dist/
 
 ## Retaking screenshots
 
-The screenshots come from the standalone app at 100 % size (1288 × 974 window). On Linux you can take them
+The full-page screenshots show the editor at 100 % size (1280 × 940). On Linux you can take them
 headless: run the standalone under `Xvfb`, give ALSA a virtual output so notes actually play (an
 `~/.asoundrc` with a named `type null` PCM that has a `hint`), and drive it with `xdotool`.
 

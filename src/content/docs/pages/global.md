@@ -17,7 +17,8 @@ The **Global** page holds the voice settings that apply to the whole patch, and 
 
 ## About
 
-- The **version** of XONOVA you're running.
+- The **version** of XONOVA you're running, and who made it.
+- **Documentation** opens this manual; **Monkey Business Soundsystem** opens [mbss.be](https://www.mbss.be).
 - Where your **presets** and **wavetables** folders are, with buttons to open them.
 - **Copy system info** – copies the version, plugin format, host, operating system and audio settings to the
   clipboard. Paste it into any bug report: see [Reporting problems](/xonova-docs/help/reporting-problems/).

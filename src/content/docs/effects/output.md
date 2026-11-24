@@ -12,7 +12,7 @@ of the [FX page](/xonova-docs/pages/fx/).
 | **Mid** | ±12 dB | Peak at the **Mid freq** |
 | **Mid freq** | 200 Hz – 5 kHz | Centre of the mid band |
 | **High** | ±12 dB | High shelf at 5 kHz |
-| **Level** | −60 to +6 dB | Output level. Also in the header. |
+| **Level** | −60 to +6 dB | Output level. Also in the header. 0 dB sits at three quarters of the travel, so the last quarter is boost. |
 | **Safety limiter** | On / off | Catches peaks before they leave XONOVA. On by default. |
 
 ## Safety limiter
