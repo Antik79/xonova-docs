@@ -40,6 +40,7 @@ export default defineConfig({
 						'interface/controls',
 						'interface/live-feedback',
 						'interface/settings',
+						'interface/themes',
 					],
 				},
 				{
