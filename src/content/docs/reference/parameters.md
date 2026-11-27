@@ -104,7 +104,7 @@ and wavetable choices – isn't automatable; it's saved with the preset and sess
 | Parameter | Range | Default |
 |---|---|---|
 | On | Off / On | On |
-| Type | None, Chorus, Flanger, Phaser, Delay, Reverb, Saturator, Widener | None |
+| Type | None, Chorus, Flanger, Phaser, Delay, Reverb, Saturator, Widener, Dub Delay, Tape, Spring, Glue | None |
 | Mix | 0 – 100 % | 30 % |
 | Param 1, 2, 3 | 0 – 100 % (meaning depends on the type – see [FX rack](/xonova-docs/effects/fx-rack/)) | 50 % |
 

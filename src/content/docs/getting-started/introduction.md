@@ -27,7 +27,8 @@ Per voice:
 
 After the voices:
 
-- An **8-slot FX rack** (chorus, flanger, phaser, delay, reverb, saturator, widener) in any order.
+- An **8-slot FX rack** (chorus, flanger, phaser, delay, reverb, saturator, widener, dub delay, tape, spring,
+  glue) in any order.
 - An **output section** with a three-band EQ, level and a safety limiter.
 
 Modulation:
@@ -37,7 +38,7 @@ Modulation:
   bend and timbre (CC 74).
 - A **64-slot modulation matrix** with response curves and scale sources.
 
-And around it: **200 factory presets** with a full browser, **MIDI learn**, unlimited **undo/redo** and a
+And around it: **254 factory presets** with a full browser, **MIDI learn**, unlimited **undo/redo** and a
 fully scalable interface.
 
 ## Formats and platforms
