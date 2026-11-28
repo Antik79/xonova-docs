@@ -89,7 +89,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Presets',
-					items: ['presets/browser', 'presets/saving'],
+					items: ['presets/browser', 'presets/saving', 'presets/sample-to-preset'],
 				},
 				{
 					label: 'MIDI',

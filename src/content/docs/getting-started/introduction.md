@@ -38,8 +38,9 @@ Modulation:
   bend and timbre (CC 74).
 - A **64-slot modulation matrix** with response curves and scale sources.
 
-And around it: **254 factory presets** with a full browser, **MIDI learn**, unlimited **undo/redo** and a
-fully scalable interface.
+And around it: **254 factory presets** with a full browser, [**Sample to Preset**](/xonova-docs/presets/sample-to-preset/)
+(a short sound in, an editable XONOVA patch out), **MIDI learn**, unlimited **undo/redo** and a fully scalable
+interface.
 
 ## Formats and platforms
 
